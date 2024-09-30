@@ -1,1 +1,22 @@
+body {
+    background-color: aqua;
+    font-family:sans-serif;
+}
 
+#ThisIsID{
+    font-size: large;
+}
+.info{
+    font-size: small;
+    position:   absolute;
+    top: 50%;
+    left: 25%;
+}
+p{
+    font-size: xx-small;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+}
+
+#myButton{}
