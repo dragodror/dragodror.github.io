@@ -6,12 +6,14 @@ body {
 #ThisIsID{
     font-size: large;
 }
+
 .info{
     font-size: small;
     position:   absolute;
     top: 50%;
     left: 25%;
 }
+
 p{
     font-size: xx-small;
     text-align: center;
@@ -19,4 +21,6 @@ p{
     margin: auto;
 }
 
-#myButton{}
+#myButton{
+    
+}
