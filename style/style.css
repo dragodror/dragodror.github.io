@@ -1,0 +1,32 @@
+
+figure{
+    border: thin black solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 20%;
+    
+}
+.flow{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#profilepic{
+   position: relative;
+}
+
+nav{
+    width: 80%;
+}
+
+.menu-text{
+    font-size: large;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    margin: 3px;
+    padding: 6px 6px;
+}
