@@ -32,6 +32,7 @@ header{
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
+    border-radius: 30px;
 }
 
 .menu a{
@@ -58,14 +59,19 @@ header{
 .main-liner{
     color: var(--header-text-color);
 }
-
-.flow{
+.flow-segment{
     display: flex;
     flex-flow: row;
+    justify-content: space-evenly;
+}
+.flow{
+    display: flex;
+    flex-flow: column;
     justify-content: space-evenly;
     margin-left: 2.5%;
     width: 95%;
     background-color: var(--acent-color);
+    border-radius: 30px;
     
 }
 figure{
