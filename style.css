@@ -24,6 +24,7 @@ header{
     display: flex;
     justify-content: center;
 }
+
 .menu{
     width: 95%;
     display: flex;
@@ -59,11 +60,13 @@ header{
 .main-liner{
     color: var(--header-text-color);
 }
+
 .flow-segment{
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
 }
+
 .flow{
     display: flex;
     flex-flow: column;
@@ -74,13 +77,20 @@ header{
     border-radius: 30px;
     
 }
+
 figure{
     display: flex;
     flex-flow: column;
     height: 30%;
     width: 30%;
     border: thin black solid;
+    border-radius: 30px;
+
     
+}
+
+figure img{
+    border-radius: 30px;
 }
 
 .grid-text{
@@ -90,3 +100,30 @@ figure{
     font-size: large;
     width: 50%;
 }
+
+footer{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-left: 2.5%;
+    width: 95%;
+    background-color: var(--acent-color);
+    border-radius: 30px;
+}
+
+.footer-box{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#instagram-logo, #facebook-logo{
+    max-width: 70px;
+}
+
+
+
