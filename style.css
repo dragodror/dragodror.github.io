@@ -15,6 +15,7 @@ figure{
 
 .menu{
     width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     background-color: aqua;
     margin: auto;
