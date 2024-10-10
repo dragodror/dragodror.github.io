@@ -57,9 +57,7 @@ header{
     flex-flow: column;
 }
 
-.main-liner{
-    color: var(--header-text-color);
-}
+
 
 .flow-segment{
     display: flex;
@@ -83,22 +81,43 @@ figure{
     flex-flow: column;
     height: 30%;
     width: 30%;
-    border: thin black solid;
-    border-radius: 30px;
 
-    
+}
+.picture-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
 }
 
 figure img{
+    margin-top: 3%;
+    border: thin black solid;
+    border-radius: 30px;
     border-radius: 30px;
 }
 
-.grid-text{
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     
+   
+}
+
+.grid-text{
     display: flex;
     flex-flow: column;
     font-size: large;
     width: 50%;
+    
+}
+
+.main-liner{
+    font-size: x-large;
+    color: var(--header-text-color);
+    margin-top: 5%;
+    text-align: center;
 }
 
 footer{
