@@ -26,19 +26,19 @@ header{
 }
 
 .menu{
-    width: 95%;
+    width: 95vw;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 1%;
-    border-radius: 30px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    border-radius: 2vw;
 }
 
 .menu a{
-    padding: 20px 30px;
-    font-size: large;
+    padding: 2vw 3vw;
+    font-size: min(4vw, large);
     text-decoration: none;
     color: var(--header-text-color);
 }
@@ -70,7 +70,7 @@ header{
     margin-left: 2.5%;
     width: 95%;
     background-color: var(--acent-color);
-    border-radius: 30px;
+    border-radius: 2vw;
     
 }
 
@@ -91,8 +91,7 @@ figure{
 figure img{
     margin-top: 3%;
     border: thin black solid;
-    border-radius: 30px;
-    border-radius: 30px;
+    border-radius: 2vw;
 }
 
 figcaption{
@@ -128,7 +127,7 @@ footer{
     margin-left: 2.5%;
     width: 95%;
     background-color: var(--acent-color);
-    border-radius: 30px;
+    border-radius: 2vw;
 }
 
 .footer-box{
