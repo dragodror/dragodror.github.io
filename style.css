@@ -27,17 +27,24 @@ header{
 
 .menu{
     width: 95vw;
-    display: flex;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     padding: 1vw;
     border-radius: 2vw;
 }
+#menu-row{
+    display: flex;
+    flex-flow: row;
+}
 
+#menu-column{
+    display: flex;
+    flex-flow: column;
+}
 .menu a{
-    padding: 2vw 3vw;
+    padding: 3vh 3vw;
     font-size: min(4vw, large);
     text-decoration: none;
     color: var(--header-text-color);
@@ -67,8 +74,8 @@ header{
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    margin-left: 2.5%;
-    width: 95%;
+    margin-left: 2.5vw;
+    width: 95vw;
     background-color: var(--acent-color);
     border-radius: 2vw;
     
